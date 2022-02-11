@@ -23,5 +23,14 @@ public class Tasks1 {
 		System.out.println("test");
 
 	}
+	@Test(priority=25)
+	private void tc5() {
+		System.out.println("code Added");
+	}
+	@Test(priority=25)
+	private void tc6() {
+		System.out.println("added");
+	}
+	
 
 }
